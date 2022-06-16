@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color:  hsl(0, 0%, 95%);
+    position: relative;   
+     min-height: 100vh;
+     /* width: 1440px; */
+
+
+}
+header{
+  
+  /* background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5))  #1f56c3;  */
+justify-content: center;
+}
+.top{
+
+  height: 60px;
+  top: 0;
+  padding-right: 40%;
+  
+ 
+
+  
+}
+
+.link li{
+  display: inline-block;
+}
+.link li a{
+color: hsl(184, 100%, 22%);
+font-family: Arial, Helvetica, sans-serif;
+padding:4px 38px;
+text-align: center;
+text-decoration: none;
+font-size: 23px;
+text-transform: capitalize;
+
+}
+a.active{
+  border-bottom: 2px solid hsl(31, 77%, 52%);
+
+}
+.link li a:hover{
+  border-bottom: 2px solid hsl(31, 77%, 52%);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.top .link{
+  padding: 13px;
+  float: right;
+  margin-top: 3px;
+list-style: none;
+}
+
+
+.flexbox-container{
+    display: flex;
+    position: absolute;
+    /* background-color: red; */
+    justify-content: center;
+    margin-top: 2%;
+    padding: 10px;
+left: 15%;
+}
+
+.flexbox-item-1 {
+    width: 310px;
+    height: 500px;
+    /* margin: 30px 0; */
+background-color:hsl(31, 77%, 52%);
+padding: 45px;
+border-radius:10px 0 0 10px ;
+}
+.flexbox-item-2 {
+    width: 310px;
+    height: 500px;
+background-color:hsl(184, 100%, 22%) ;
+padding:45px;
+}
+.flexbox-item-3 {
+    width: 310px;
+    height: 500px;
+background-color: hsl(179, 100%, 13%) ;
+padding: 45px;
+border-radius:  0 10px   10px 0 ;
+}
+.head{
+    margin-top: 30px;
+}
+.head .sedan{
+    display: inline-block;
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 35px;
+  color:  hsl(0, 0%, 95%);
+}
+.flexbox-item-1 .paragraph{
+     font-family: Lexend Deca;
+     margin-top:30px ;
+     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    word-spacing: 2px;
+    
+}
+
+
+.head .suv{
+    display: inline-block;
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 35px;
+  color:  hsl(0, 0%, 95%);
+}
+.flexbox-item-2 .paragraph{
+     font-family: Lexend Deca;
+     margin-top:30px ;
+     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    word-spacing: 2px;
+    
+}
+
+
+.head .luxury{
+    display: inline-block;
+  font-family: Big Shoulders Display;
+  font-weight: 700;
+  font-size: 35px;
+  color:  hsl(0, 0%, 95%);
+}
+.flexbox-item-3 .paragraph{
+     font-family: Lexend Deca;
+     margin-top:30px ;
+     color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    word-spacing: 2px;
+    
+}
+
+/*  */
+
+.flexbox-item-1 .button {
+  margin-top: 80px;
+  width: 180px;
+
+}
+.flexbox-item-1 .button a{
+    text-decoration: none;
+color: hsl(31, 77%, 52%); 
+     font-family: Lexend Deca;
+     background-color: #fff;
+     border-radius: 50px;
+     display: inline-block;
+     padding:13px 30px;
+margin: 10px;
+-webkit-transition: 0.3s all ease;
+transition: 0.3s all ease;
+}
+
+
+/*  */
+
+.flexbox-item-2 .button {
+    margin-top: 80px;
+    width: 180px;
+  
+  }
+  .flexbox-item-2 .button a{
+      text-decoration: none;
+  color: hsl(184, 100%, 22%); 
+       font-family: Lexend Deca;
+       background-color: #fff;
+       border-radius: 50px;
+       display: inline-block;
+       padding:13px 30px;
+  margin: 10px;
+  -webkit-transition: 0.3s all ease;
+transition: 0.3s all ease;
+  }
+  
+
+.flexbox-item-3 .button {
+    margin-top: 80px;
+    width: 180px;
+  
+  }
+  .flexbox-item-3 .button a{
+      text-decoration: none;
+  color: hsl(179, 100%, 13%); 
+       font-family: Lexend Deca;
+       background-color: #fff;
+       border-radius: 50px;
+       display: inline-block;
+       padding:13px 30px;
+  margin: 10px;
+  -webkit-transition: 0.3s all ease;
+transition: 0.3s all ease;
+  }
+  .flexbox-item-1 .button a:hover,
+  .flexbox-item-2 .button a:hover,
+  .flexbox-item-3 .button a:hover{
+      background-color: transparent;
+      color:  hsl(0, 0%, 95%);
+      border: 2px solid  hsl(0, 0%, 95%);
+
+  }
+
